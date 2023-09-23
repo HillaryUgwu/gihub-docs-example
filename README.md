@@ -114,13 +114,20 @@ You can add pictures to your readme file a number of different ways including:
   You can embed you asset in one of the followig ways:
   
 - The syntax for embedding an image is: `![]()` or
-- You can use HTML markup format like so: `<img src"" />`
+- You can use HTML markup format like so: `<img src="" />`
 - The second option allows you to resize and apply custom formatting on you file after uploading
 
 Below are examples of both methods using reletive pathing.
 ![Direct embed without resizing](assets/lore.jpg)
 
-<img width="200px" src"lore.jpg" />
+<img width="200px" src="assets/lore.jpg" />
+
+### Link to Files in other Directories
+
+You can create a reletive link to files in any directory using the following syntax: `[]()`
+Exampe:
+
+[Have fun reading about **Secret Windows**](secrets/window.md)
 
 ## Step 3 - Use Github Flavoured Task Lists
 
