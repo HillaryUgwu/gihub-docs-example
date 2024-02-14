@@ -1,4 +1,4 @@
-# Wirting Good Documentation
+# Writing Good Documentation
 
 ## Step 1 - Using Codeblocks
 
